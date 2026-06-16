@@ -34,7 +34,7 @@ A simple and intuitive calculator application built with Java, featuring a clean
 1. Clone the repository:
 ```bash
 git clone https://github.com/xndirkeoa/Calculator-App.git
-cd Calculator-App/src
+cd Calculator-App
 ```
 
 2. Compile the Java source files:
