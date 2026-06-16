@@ -1,102 +1,181 @@
-# Calculator App
+# 🧮✨ Calculator App
 
-A simple and intuitive calculator application built with Java, featuring a clean graphical user interface for performing basic arithmetic operations.
+### ⚡ Smart • Fast • Clean Java Swing Calculator
 
-## Features
-
-- **Basic Arithmetic Operations**: Addition, subtraction, multiplication, and division
-- **Additional Functions**: Percentage calculation and square root functionality
-- **All Clear (AC)**: Reset the calculator to start fresh
-- **Sign Toggle (+/-)**: Switch between positive and negative numbers
-- **Decimal Support**: Perform calculations with decimal numbers
-- **Clean UI**: User-friendly interface with organized button layout
-
-## Operations Supported
-
-- **Addition (+)**: Add two numbers
-- **Subtraction (-)**: Subtract one number from another
-- **Multiplication (×)**: Multiply two numbers
-- **Division (÷)**: Divide one number by another
-- **Percentage (%)**: Calculate percentages
-- **Square Root (√)**: Find the square root of a number
-- **Sign Toggle (+/-)**: Convert between positive and negative values
-- **Clear (AC)**: Clear all inputs and reset the display
-
-## Getting Started
-
-### Prerequisites
-
-- Java Development Kit (JDK) 8 or higher
-- Any Java IDE (Eclipse, IntelliJ IDEA, NetBeans) or command line compiler
-
-### Installation
-
-1. Clone the repository:
-```bash
-git clone https://github.com/xndirkeoa/Calculator-App.git
-cd Calculator-App
-```
-
-2. Compile the Java source files:
-```bash
-javac *.java
-```
-
-3. Run the application:
-```bash
-java Main
-```
-
-## Usage
-
-1. Launch the application
-2. Click on number buttons (0-9) to enter values
-3. Click on an operation button (+, -, ×, ÷) to perform calculations
-4. Click the equals button (=) to get the result
-5. Use AC to clear the display and start over
-6. Use +/- to toggle the sign of the current number
-7. Use % for percentage calculations
-8. Use √ for square root calculations
-
-## Project Structure
-
-```
-Calculator-App/
-├── README.md
-├── src/
-│   ├── Main.java
-│   ├── Calculator.java
-│   └── [other Java source files]
-└── ...
-```
-
-## Technologies Used
-
-- **Language**: Java
-- **GUI Framework**: Java Swing (AWT/Swing)
-
-## Example Calculations
-
-- **5 + 3 = 8**
-- **10 - 4 = 6**
-- **7 × 6 = 42**
-- **20 ÷ 4 = 5**
-- **25% = 0.25**
-- **√16 = 4**
-
-## User Interface
-
-<img width="366" height="547" alt="Screenshot 2026-06-16 at 10 11 05 AM" src="https://github.com/user-attachments/assets/4d40735f-606a-4838-91ab-7675ec424082" />
-
-
-## License
-
-This project is open source and available under the MIT License.
-
-## Author
-
-[xndirkeoa](https://github.com/xndirkeoa)
+<p align="center">
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Swing-UI-blue?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge"/>
+</p>
 
 ---
 
-**Enjoy calculating! 🧮**
+## 🚀🔥 Overview
+
+A **powerful yet lightweight calculator** built using **Java Swing** ☕🖥️
+Focused on **speed ⚡, accuracy 🎯, and clean UI 🧠**
+
+---
+
+## 🖼️📱 Live UI Preview
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/4d40735f-606a-4838-91ab-7675ec424082" width="320"/>
+</p>
+
+<p align="center">
+  🔥 Modern layout • 🎯 Clear display • ⚡ Fast response
+</p>
+
+---
+
+## 🌟💡 Why This Project Stands Out
+
+✔ 🧠 Smart input handling (no crashes 🚫)
+✔ ⚡ Smooth and responsive UI
+✔ 🎯 Accurate calculations
+✔ 🧹 Minimal & clean design
+✔ 🧩 Beginner-friendly + scalable
+
+---
+
+## 🎯✨ Features
+
+### 🔢 Core Operations
+
+* ➕ Addition
+* ➖ Subtraction
+* ✖️ Multiplication
+* ➗ Division
+
+### 🧩 Advanced Functions
+
+* 📊 Percentage (%)
+* 🔍 Square Root (√)
+* 🔁 Sign Toggle (+/-)
+* 🧹 All Clear (AC)
+
+---
+
+## 🛠️⚙️ Tech Stack
+
+* ☕ Java
+* 🖥️ Swing (AWT)
+* 🔄 Event-driven logic
+
+---
+
+## ⚙️🚀 Installation
+
+```bash
+# 📥 Clone repo
+git clone https://github.com/xndirkeoa/Calculator-App.git
+
+# 📂 Enter folder
+cd Calculator-App
+
+# ⚙️ Compile
+javac *.java
+
+# ▶️ Run
+java Main
+```
+
+---
+
+## 🎮🧠 Usage
+
+| 🎯 Action         | 💡 Description |
+| ----------------- | -------------- |
+| 🔢 Enter Numbers  | 0–9 keypad     |
+| ➕ Choose Operator | +, −, ×, ÷     |
+| 🟰 Calculate      | Press =        |
+| 🧹 Reset          | AC             |
+| 🔁 Toggle Sign    | +/-            |
+| 📊 Percentage     | %              |
+| 🔍 Square Root    | √              |
+
+---
+
+## 🧪📊 Sample Outputs
+
+```
+5 + 3 = 8
+10 - 4 = 6
+7 × 6 = 42
+20 ÷ 4 = 5
+√16 = 4
+25% = 0.25
+```
+
+---
+
+## 📂🗂️ Project Structure
+
+```
+Calculator-App/
+├── 📁 src/
+│   ├── 📄 Main.java
+│   ├── 📄 Calculator.java
+│   └── 📄 UI Components
+├── 📄 README.md
+```
+
+---
+
+## 🔮🚀 Future Enhancements
+
+* 🌙 Dark Mode
+* 🧮 Scientific Mode
+* 📜 History Panel
+* 📱 Better UI styling
+* ⌨️ Keyboard support
+
+---
+
+## 🤝💬 Contributing
+
+```
+# 🍴 Fork repo
+git checkout -b feature-name
+git commit -m "Added feature"
+git push origin feature-name
+```
+
+Open a Pull Request 🚀
+
+---
+
+## ⭐❤️ Support
+
+If you like this project:
+
+* ⭐ Star it
+* 🍴 Fork it
+* 🛠️ Improve it
+
+---
+
+## 📜 License
+
+MIT License 🟢
+
+---
+
+## 👨‍💻 Author
+
+🔗 https://github.com/xndirkeoa
+
+---
+
+## 💡🔥 Pro Tip
+
+👉 Add a **GIF demo 🎥** (button clicks + calculation flow)
+👉 This alone can increase recruiter attention by **2–3x**
+
+---
+
+<p align="center">
+  Made with ❤️ + ☕ + 💻
+</p>
