@@ -84,9 +84,10 @@ Calculator-App/
 - **25% = 0.25**
 - **√16 = 4**
 
-## Contributing
+## User Interface
 
-Feel free to fork this project and submit pull requests for any improvements or bug fixes.
+<img width="366" height="547" alt="Screenshot 2026-06-16 at 10 11 05 AM" src="https://github.com/user-attachments/assets/4d40735f-606a-4838-91ab-7675ec424082" />
+
 
 ## License
 
